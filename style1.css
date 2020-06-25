@@ -1,0 +1,51 @@
+body {
+	font-family: sans-serif;
+	background-color: #dedede;
+}
+
+.container {
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 0px 0px 8px grey;
+	text-align: center;
+}
+
+.container-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1 {
+	font-weight: normal;
+	margin-top: 40px;
+}
+
+input, button {
+	border-radius: 25px;
+	margin: 20px;
+	outline: none;
+}
+
+input {
+	height: 30px;
+	width: 250px;
+	border: 1px solid;
+	text-indent: 10px;
+	font-size: 18px;
+}
+
+input:focus {
+	border: 1.5px solid #14b005;
+}
+
+button {
+	height: 40px;
+	width: 130px;
+	border: 0px;
+	background-color: #14b005;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
